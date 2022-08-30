@@ -1,0 +1,105 @@
+<html>
+<!-- Opneing Tag, HTML: HyperText Markup Language -->
+
+<head>
+  <title> My Portfolio! </title>
+</head>
+<!-- Header Menu of the Page -->
+<header>
+
+  <!-- Top header menu containing
+		 Navigation bar -->
+  <div id="top-header">
+    <!-- Navigation Menu -->
+    <nav>
+      <ul>
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+  </div>
+
+</header>
+
+<!-- Home page -->
+
+<body>
+  <h1>Hello There! </h1>
+  <h2>Welcome to Our Website</h2>
+  <h3>Our services:</h3>
+  <ol>
+    <!-- Ordered Lists -->
+    <li> Photography </li>
+    <li> Web Development </li>
+    <li> English Teaching </li>
+  </ol>
+  <!-- Appears under "About Us"-->
+  <label for="experience">Our Experiences in:</label>
+  <select name="experience" id="experience">
+    <option value="photography">Photography</option>
+    <option value="web">Web Development</option>
+    <option value="teaching">Teaching</option>
+  </select>
+
+  <!-- If photography was chosen, the following would appear: 
+    -->
+  <img width="500px" height="300px" src="images/img1.jpg" />
+  <p>Started photography at the age of 17.<br />
+    It was a self-taught talent, until I took a course few years later to level it up into professional
+    photosessions.<br />
+    Photography is my passion ever since I was a little kid. It's the absolute way to keep a memory forever!</p>
+
+
+  <img width="200px" height="300px" src="images/img2.jpg" />
+
+
+  <!-- If Web Development was chosen, the following would appear: -->
+  <p>I entered the world of coding in 2018, always liked what's mind-challenging. <br /> Together we can build the
+    website you acquire to your business </p>
+  <p>Below are some examples:</p>
+  <img width="350px" height="200px" src="images/img4.jpg" />
+  <img width="350px" height="200px" src="images/img5.jpg" />
+
+
+  <!-- If Teaching was chosen, the following would appear: -->
+  <p>One year of English Teaching at an elementary school
+    gave me alot of experience and brought me closer to the children. <br/>You can guarantee a professional and child-friendly education for your children</p>
+
+
+  <!-- if the user chose contact us from the header, the following would appear-->
+
+  <label for="contact">Contact us through:</label>
+  <select name="contact" id="contact">
+    <option value="email">Email</option>
+    <option value="phonenumber">Phone Number</option>
+  </select>
+  <br /> <br />
+  <label for="name">Name:</label>
+
+  <input name="name" type="text" maxlength="60" style="width:100%;max-width:250px;" />
+  <br /><br />
+  <!-- if the user chose phone number, this form would appear-->
+  <label for="phonenumber">Phone number:</label>
+
+  <input name="phonenumber" type="text" maxlength="43" style="width:100%;max-width:250px;" />
+  <br /><br />
+
+  <!-- if the user chose email, this form would appear -->
+  <label for="email">Email address:</label>
+
+  <input name="email" type="text" maxlength="90" style="width:100%;max-width:250px;" />
+  <br /><br />
+  
+  <!-- the comments section appears with both -->
+  
+  <label for="comments">Comments:</label>
+
+  <textarea name="comments" rows="7" cols="40" style="width:100%;max-width:350px;"></textarea>
+  <br /><br />
+
+
+
+</body>
+
+</html>
